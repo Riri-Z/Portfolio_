@@ -1,0 +1,41 @@
+.introContainer  {
+  background-color:#202020;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content{
+  color: #1BA455;
+  font-weight: bold;
+}
+
+.reveal{
+  position: relative;
+  transform: translateX(-20rem);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+.revealPicture{
+  position: relative;
+  transform: translateX(20rem);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealPicture.active{
+  transform: translateX(0);
+  opacity: 1;
+}

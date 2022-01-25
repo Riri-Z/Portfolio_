@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 10rem;
+  backdrop-filter: blur(6px);
+}
+
+.btn {
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+
+.section {
+  display: flex;
+  gap:1rem;
+}
+
+.section  a {
+  color: #FFFF;
+  padding: 0.6rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: filter 0.25s;
+  
+}
+
+.section a:link, a:visited {
+  text-decoration: none;
+}
