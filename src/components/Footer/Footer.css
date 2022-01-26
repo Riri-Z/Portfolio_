@@ -1,8 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content:space-between;
-  padding: 1rem 15rem;
+  justify-content:space-evenly;
   margin-top: 15rem;
-  background-color: lightslategrey;
+  background-color: rgb(42 44 45);
 }

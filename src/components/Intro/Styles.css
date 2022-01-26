@@ -3,18 +3,22 @@
   display: flex;
   justify-content: space-evenly;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
+  padding-left: 11rem;
+  padding-right: 12rem;
 }
 
 .description{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 10rem;
 }
 
 .content{
-  color: #1BA455;
-  font-weight: bold;
+  color: #ffffff;
+  text-justify: inter-word;
+
 }
 
 .reveal{

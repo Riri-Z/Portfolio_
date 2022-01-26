@@ -4,8 +4,9 @@ import { Footer } from './components/Footer/Footer'
 import { Intro } from './components/Intro/Intro'
 import { Portfolio } from './components/Portfolio/Portfolio'
 import { Contact } from './components/Contact/Contact'
-import { Particle } from './components/Particles/Particles';
+import { About } from './components/About/About'
 
+import { Particle } from './components/Particles/Particles';
 import './App.css';
 
 function App() {
@@ -14,13 +15,10 @@ function App() {
       <Particle />
       <Header />
       <Intro />
+      <About/>
       <Portfolio />
       <Contact />
       <Footer/>
-      {/* <Intro></Intro>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Contact></Contact> */}
     </div>
   );
 }

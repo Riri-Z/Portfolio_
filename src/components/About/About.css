@@ -1,0 +1,41 @@
+.tools{
+  display: flex;
+  flex-direction: column;
+}
+.tools p {
+    font-size: x-small;
+    margin:auto;
+}
+
+.titleList {
+  font-size: medium;
+  padding:0.7rem;
+}
+h1{
+  text-align: center;
+  font-size: 1.875rem;
+
+}
+
+.techContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.toolsList {
+  display: flex;
+  justify-content: center;
+
+}
+.toolsList img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rocket {
+  display: flex;
+}
+.item {
+  display: flex;
+}

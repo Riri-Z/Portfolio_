@@ -2,13 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 10rem;
-  backdrop-filter: blur(6px);
+  padding: 0.8rem 10rem;
+  background-color: rgb(30 28 28 / 90%);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .btn {
-  background-color: yellowgreen;
-  border-radius: 5px;
+  background-color: rgba(68, 133, 8, 0.712);
+  border-radius: 1.6rem;
+  width: 5rem;
+  text-align: center;
 }
 
 
@@ -24,9 +29,27 @@
   font-weight: 500;
   text-transform: uppercase;
   transition: filter 0.25s;
-  
+}
+
+.section a:hover {
+  background-color: rgb(92, 205, 126);
+  border-radius: 1.6rem;
+}
+
+.logo{
+  color: #FFFF;
+  padding: 0.6rem;
+  font-family:"Cormorant Garamond";
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
 }
 
 .section a:link, a:visited {
   text-decoration: none;
+}
+
+.content{
+  height: 10rem;
 }

@@ -1,4 +1,47 @@
-#contact{
-  display: "flex";
-   justify-content: "center"
+form {
+  flex-direction: column;
+  display: flex;
+}
+
+input {
+  border: 1px solid #FFF;
+}
+
+input, textarea{
+  padding: 1rem 2rem;
+  border-radius: 1.6rem;
+  background: none;
+  border: 1px solid rgb(255 255 255);
+  color: rgb(255 255 255);
+  font-weight: 600;
+}
+
+button {
+  width: 10rem;
+  border-radius: 1.6rem;
+background-color: greenyellow;
+margin:auto;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.title {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.forms{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 30rem;
+  gap:1rem;
+}
+
+.captcha{
+  display: flex;
+  justify-content: center;
 }
