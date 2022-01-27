@@ -1,5 +1,5 @@
 import "./Styles.css"
-import { NavHashLink, HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 export const Header = () => {
@@ -17,31 +17,43 @@ export const Header = () => {
           <span>.Zamor</span>
         </HashLink>
 
-        <nav className="section">
-          <NavHashLink
+        <div className="section">
+          <HashLink
             smooth
             to="#home">
-            HOME
-          </NavHashLink>
-          <NavHashLink
+
+            <p>HOME</p>
+          </HashLink>
+          <HashLink
             smooth
             to="#about">
-            About Me
-          </NavHashLink>
-          <NavHashLink
+            <p>
+              About Me
+            </p>
+          </HashLink>
+          <HashLink
             smooth
             to="#contact">
-            Contact
-          </NavHashLink>
+            <p>
+              Contact
+            </p>
+          </HashLink>
+          <HashLink
+            smooth
+            to="#stack">
+            <p>
+              Tools
+            </p>
+          </HashLink>
           <a
             className="btn"
             href={require("../../assets/cv.pdf")}
             download="CV_RIRI_ZAMOR"
             target="_blank"
           >
-            CV
+              <p>CV</p>
           </a>
-        </nav>
+        </div>
 
       </Router>
 

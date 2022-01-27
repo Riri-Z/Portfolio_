@@ -18,33 +18,35 @@ import yarn from "../../assets/yarn.svg"
 import mui from "../../assets/mui.png"
 import es6 from "../../assets/es6.png"
 import rocket from "../../assets/rocket.svg"
+import tailwind from "../../assets/tailwindcss.svg"
 
 export const About = () => {
 
 
 
   const DisplayList = (list) => {
-     const category = list?.list
+    const category = list?.list
     return (
       <div className="tools">
 
         <h1 className='titleList'>{category.title}    </h1>
 
-        <div className='toolsList'          >
+        <div className='toolsList'>
 
           {
             category.element.map(e => {
 
               return (
-                <div className='item'>
-                  <p key={e.name}
-                  >{e.name}</p>
+                <div key={e.name} className='item'>
+    
                   <img
-                    width={50}
+                    width={20}
+                    height={20}
                     src={e.logo}
                     alt={e.name}
 
                   />
+                  <p >{e.name}</p>
                 </div>
               )
             })
@@ -98,6 +100,7 @@ export const About = () => {
     , element: [
       { name: 'Mui', logo: mui },
       { name: 'BootStrap', logo: boostrapIcon },
+      { name: 'Tailwind', logo: tailwind },
     ]
   }
 
@@ -111,19 +114,20 @@ export const About = () => {
   }
 
   return (
-    <div className="techContainer">
+    <div id="stack" className="techContainer">
 
       <div className='rocket' >
         <img
           src={rocket}
           width={300}
+
           alt="rocket"
 
         >
         </img>
       </div>
 
-      <div className='listTools'>
+      <div >
         <h1>TECH STACK </h1>
         <DisplayList
           list={Languages}

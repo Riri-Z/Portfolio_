@@ -9,14 +9,6 @@
   z-index: 1;
 }
 
-.btn {
-  background-color: rgba(68, 133, 8, 0.712);
-  border-radius: 1.6rem;
-  width: 5rem;
-  text-align: center;
-}
-
-
 .section {
   display: flex;
   gap:1rem;
@@ -24,23 +16,21 @@
 
 .section  a {
   color: #FFFF;
-  padding: 0.6rem;
   font-family: 'Red Hat Display', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   text-transform: uppercase;
   transition: filter 0.25s;
 }
 
 .section a:hover {
-  background-color: rgb(92, 205, 126);
-  border-radius: 1.6rem;
-}
+  color: chartreuse;
+} 
 
 .logo{
   color: #FFFF;
   padding: 0.6rem;
   font-family:"Cormorant Garamond";
-  font-weight: bold;
+  font-weight: small;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -52,4 +42,16 @@
 
 .content{
   height: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+  .logo{
+    color: #FFFF;
+  
+    font-family:"Cormorant Garamond";
+    font-weight: small;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+  }
 }

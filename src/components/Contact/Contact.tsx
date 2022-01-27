@@ -5,29 +5,20 @@ import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
 
-   const service = process.env.REACT_APP_SERVICE || "test"
-   const template = process.env.REACT_APP_TEMPLATE_ID || "test"
-   const user = process.env.REACT_APP_USER_ID || "test"
-   
-   useEffect(() => {
-  console.log("🚀 ~ file: Contact.tsx ~ line 9 ~ Contact ~ service", service)
-  console.log("🚀 ~ file: Contact.tsx ~ line 10 ~ Contact ~ template", template)
-  console.log("🚀 ~ file: Contact.tsx ~ line 11 ~ Contact ~ user", user)
+  const service = process.env.REACT_APP_SERVICE || "test"
+  const template = process.env.REACT_APP_TEMPLATE_ID || "test"
+  const user = process.env.REACT_APP_USER_ID || "test"
 
-},[])
+
 
   const form = React.useRef<HTMLFormElement>(null!);
 
-  /*   const [form, setForm] = useState({
-      email: "",
-      content: ""
-    }) */
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(service,template, form.current,
-    user)
+    emailjs.sendForm(service, template, form.current,
+      user)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -35,15 +26,6 @@ export const Contact = () => {
         console.log(error.text);
       });
   };
-
-  /*   const handleChange = (value) => {
-      setForm(value)
-    } */
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('first');
-  }
 
   return (
 

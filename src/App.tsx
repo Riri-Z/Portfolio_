@@ -1,4 +1,3 @@
-import Particles from "react-tsparticles"
 import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
 import { Intro } from './components/Intro/Intro'
@@ -15,10 +14,10 @@ function App() {
       <Particle />
       <Header />
       <Intro />
-      <About/>
+      <About />
       <Portfolio />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

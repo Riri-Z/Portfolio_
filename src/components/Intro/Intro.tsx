@@ -37,7 +37,7 @@ export const Intro = () => {
 
 
   return (
-    <div className='introContainer'>
+    <div  id="home"  className='introContainer'>
 
       <div className="description reveal">
 
@@ -50,7 +50,7 @@ export const Intro = () => {
         </p>
 
         <p className='content'>
-          I am a web developer with a working proficiency in HTML, CSS, Javascript, ReactJS and NodeJs. My development environment consists of Linux Ubuntu, vscode, Github.
+          I am a web developer with a working proficiency in HTML, CSS, Javascript, ReactJS and NodeJs. My development environment consists of Linux, vscode, Github and others tools.
           I am actually playing with others javascript frameworks, and web3 technology.
           My goal is to continually grow as a developer while staying current with the latest trends and technologies. I would love to work for a team that is truly passionate about what they create, and positive energy.
         </p>

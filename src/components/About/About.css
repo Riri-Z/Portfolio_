@@ -30,7 +30,7 @@ h1{
 }
 .toolsList img {
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 0.2rem;
 }
 
 .rocket {
@@ -38,4 +38,14 @@ h1{
 }
 .item {
   display: flex;
+}
+.item:hover{
+  color: chartreuse;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .rocket {
+    display: none;
+  }
 }

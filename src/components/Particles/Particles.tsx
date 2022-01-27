@@ -21,7 +21,7 @@ export const Particle = () => {
       options={{
         "fullScreen": {
           "enable": true,
-          "zIndex": 100
+          "zIndex": 1
         },
         "detectRetina": true,
         "fpsLimit": 60,
@@ -235,7 +235,8 @@ export const Particle = () => {
           "url": ""
         },
         "background": {
-          "image": "",
+/*           "color":"#202020",
+ */          "image": "",
           "position": "50% 50%",
           "repeat": "no-repeat",
           "size": "cover"
