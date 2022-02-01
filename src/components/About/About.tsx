@@ -3,7 +3,6 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
@@ -27,7 +26,7 @@ export const About = () => {
   const DisplayList = (list) => {
     const category = list?.list
     return (
-      <div className="tools">
+      <div className="">
 
         <h1 className='titleList'>{category.title}    </h1>
 
@@ -127,7 +126,7 @@ export const About = () => {
         </img>
       </div>
 
-      <div >
+      <div className='tools' >
         <h1>TECH STACK </h1>
         <DisplayList
           list={Languages}

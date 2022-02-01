@@ -1,10 +1,14 @@
-.tools{
-  display: flex;
-  flex-direction: column;
-}
+
 .tools p {
     font-size: x-small;
     margin:auto;
+}
+
+
+.tools{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titleList {
@@ -26,10 +30,11 @@ h1{
 .toolsList {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 
 }
 .toolsList img {
-  padding-left: 1rem;
+
   padding-right: 0.2rem;
 }
 
@@ -38,6 +43,11 @@ h1{
 }
 .item {
   display: flex;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 0.2rem;
+  border-color: black;
+  background-color: rgb(119 136 153);
 }
 .item:hover{
   color: chartreuse;

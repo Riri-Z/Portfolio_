@@ -51,7 +51,7 @@ export const Header = () => {
             download="CV_RIRI_ZAMOR"
             target="_blank"
           >
-              <p>CV</p>
+            <p>CV</p>
           </a>
         </div>
 
