@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import './Contact.css'
 import ReCAPTCHA from 'react-google-recaptcha'
 import emailjs from '@emailjs/browser';
