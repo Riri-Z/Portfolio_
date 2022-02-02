@@ -50,7 +50,7 @@ export const Header = () => {
             href={require("../../assets/cv.pdf")}
             download="CV_RIRI_ZAMOR"
             target="_blank"
-            rel = "noopener"
+            rel="noreferrer" 
           >
             <p>CV</p>
           </a>
