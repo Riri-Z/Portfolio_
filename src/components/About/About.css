@@ -1,7 +1,7 @@
 
 .tools p {
-    font-size: x-small;
-    margin:auto;
+  font-size: x-small;
+  margin:auto;
 }
 
 
@@ -15,10 +15,10 @@
   font-size: medium;
   padding:0.7rem;
 }
+
 h1{
   text-align: center;
   font-size: 1.875rem;
-
 }
 
 .techContainer {
@@ -26,21 +26,26 @@ h1{
   justify-content: space-around;
 }
 
+.revealPicture:hover{
+  pointer-events: none;
+}
+
 
 .toolsList {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-
+  gap: 1rem;
 }
-.toolsList img {
 
+.toolsList img {
   padding-right: 0.2rem;
 }
 
 .rocket {
   display: flex;
 }
+
 .item {
   display: flex;
   border: solid 1px;

@@ -25,7 +25,7 @@ export const Portfolio = () => {
       title: "HealthyMood",
       url: "",
       img: hm,
-      description: "A (broken) recipe website "
+      description: "A (used to be) recipe website "
     }
   ]
 

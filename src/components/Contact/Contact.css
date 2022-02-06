@@ -4,23 +4,24 @@ form {
 }
 
 input {
-  border: 1px solid #FFF;
+  border: 1px ;
 }
 
 input, textarea{
   padding: 1rem 2rem;
   border-radius: 1.6rem;
   background: none;
-  border: 1px solid rgb(255 255 255);
+  border: 1px ;
+  z-index: 1;
   color: rgb(255 255 255);
   font-weight: 600;
+  background-color: darkslategrey;
 }
 
-button {
-  width: 10rem;
-  border-radius: 1.6rem;
-  background-color: greenyellow;
-  margin:auto;
+.btn-contact:hover {
+
+  background-color: rgb(46, 97, 31);
+
 }
 
 #contact {

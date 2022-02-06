@@ -8,17 +8,22 @@ import { About } from './components/About/About'
 import { Particle } from './components/Particles/Particles';
 import './App.css';
 
+
+
 function App() {
   return (
-    <div className="App">
-      <Particle />
-      <Header />
-      <Intro />
-      <About />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </div>
+
+      <div className="App">
+
+        <Particle />
+        <Header />
+        <Intro />
+        <About />
+        <Portfolio />
+        <Contact />
+        <Footer />
+
+      </div>
   );
 }
 

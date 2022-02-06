@@ -1,3 +1,8 @@
+
+.containerPortfolio {
+  padding: 4rem;
+}
+
 .containerProject{
   display: flex;
   justify-content: space-evenly;

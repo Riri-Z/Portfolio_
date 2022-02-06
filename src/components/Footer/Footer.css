@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:center;
   margin-top: 15rem;
   background-color: rgb(42 44 45);
 }

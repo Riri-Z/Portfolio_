@@ -10,9 +10,8 @@ export const Footer = () => {
 
     <div className="footer">
       <p>
-        Build by R.Zamor with 
+        Build by R.Zamor  
       </p>
-
     </div>
   )
 }

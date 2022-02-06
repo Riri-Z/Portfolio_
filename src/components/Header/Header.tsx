@@ -20,10 +20,11 @@ export const Header = () => {
         <div className="section">
           <HashLink
             smooth
-            to="#home">
+            to="#about">
 
             <p>HOME</p>
           </HashLink>
+
           <HashLink
             smooth
             to="#about">
@@ -50,16 +51,13 @@ export const Header = () => {
             href={require("../../assets/cv.pdf")}
             download="CV_RIRI_ZAMOR"
             target="_blank"
-            rel="noreferrer" 
+            rel="noreferrer"
           >
             <p>CV</p>
           </a>
         </div>
 
       </Router>
-
-
-
 
     </div>
   )
