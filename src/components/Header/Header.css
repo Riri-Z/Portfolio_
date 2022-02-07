@@ -14,7 +14,7 @@
   gap:1rem;
 }
 
-.section  a {
+.section  a p{
   color: #FFFF;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 300;
@@ -22,8 +22,8 @@
   transition: filter 0.25s;
 }
 
-.section a:hover {
-  color: chartreuse;
+.section p:hover{
+  text-decoration: underline;
 } 
 
 .logo{

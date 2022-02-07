@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import IntroImage from '../../assets/intro.svg'
-import './Styles.css'
+import './Intro.css'
 
 export const Intro = () => {
 
@@ -40,7 +40,7 @@ export const Intro = () => {
     <div  id="about"  className='introContainer'>
 
       <div className="description reveal">
-
+        <h1>About Me</h1>
         <p className='hello'>
           Hello 👋
         </p>

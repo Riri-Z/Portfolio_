@@ -24,16 +24,16 @@ export const About = () => {
 
 
   const DisplayList = (list) => {
-    const category = list?.list
+    const CATEGORY = list?.list
     return (
       <div className="">
 
-        <h1 className='titleList'>{category.title}    </h1>
+        <h1 className='titleList'>{CATEGORY.title}    </h1>
 
         <div className='toolsList'>
 
           {
-            category.element.map(e => {
+            CATEGORY.element.map(e => {
 
               return (
                 <div key={e.name} className='item'>

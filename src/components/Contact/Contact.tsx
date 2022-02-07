@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Contact.css'
 import emailjs from '@emailjs/browser';
 
+import './Contact.css'
 
 export const Contact = () => {
 
@@ -33,6 +33,7 @@ export const Contact = () => {
       <h1 className='title'>CONTACT</h1>
 
       <form className='forms' ref={form} onSubmit={sendEmail}>
+
         <input
           placeholder="Email"
           id="email"
@@ -41,6 +42,7 @@ export const Contact = () => {
           required
           autoComplete='new-password'
         />
+
         <textarea
           className='content'
           required
@@ -48,7 +50,6 @@ export const Contact = () => {
           id="message"
           minLength={10}
           name="message"
-
         />
 
         <input

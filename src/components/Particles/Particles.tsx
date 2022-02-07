@@ -235,8 +235,7 @@ export const Particle = () => {
           "url": ""
         },
         "background": {
-/*           "color":"#202020",
- */          "image": "",
+          "image": "",
           "position": "50% 50%",
           "repeat": "no-repeat",
           "size": "cover"
