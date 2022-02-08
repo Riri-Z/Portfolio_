@@ -8,8 +8,8 @@ export const Header = () => {
     <div className="container">
 
       <Router>
-        <HashLink
 
+        <HashLink
           to="#home"
           className="logo">
           <span>R</span>
@@ -17,34 +17,40 @@ export const Header = () => {
         </HashLink>
 
         <div className="section">
+
           <HashLink
             smooth
-            to="#about">
+            to="#about"
+          >
 
             <p>HOME</p>
+
           </HashLink>
 
           <HashLink
             smooth
-            to="#about">
-            <p>
-              About Me
-            </p>
+            to="#about"
+          >
+
+            <p>About Me</p>
+
           </HashLink>
+
           <HashLink
             smooth
-            to="#contact">
-            <p>
-              Contact
-            </p>
+            to="#contact"
+          >
+
+            <p>Contact </p>
+
           </HashLink>
+
           <HashLink
             smooth
             to="#stack">
-            <p>
-              Tools
-            </p>
+            <p>Tools</p>
           </HashLink>
+
           <a
             className="btn"
             href={require("../../assets/cv.pdf")}
@@ -54,6 +60,7 @@ export const Header = () => {
           >
             <p>CV</p>
           </a>
+
         </div>
 
       </Router>

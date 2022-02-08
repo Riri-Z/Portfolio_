@@ -8,7 +8,7 @@ export const Intro = () => {
     reveal()
   }, [])
 
-
+  //Animate content
   function reveal() {
     let reveals = document.querySelectorAll(".reveal")
     let revealsPicture = document.querySelectorAll(".revealPicture")
@@ -66,7 +66,7 @@ export const Intro = () => {
         />
       </div>
 
-   
+
     </div>
   )
 }

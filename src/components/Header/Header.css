@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem 10rem;
+  padding: 0.5rem 2rem;
   background-color: rgb(30 28 28 / 90%);
   position: sticky;
   top: 0;
@@ -24,7 +24,8 @@
 
 .section p:hover{
   text-decoration: underline;
-} 
+  text-underline-position: under;
+}
 
 .logo{
   color: #FFFF;
@@ -47,12 +48,12 @@
 @media screen and (max-width: 900px) {
   .logo{
     color: #FFFF;
-  
+
     font-family:"Cormorant Garamond";
     font-weight: small;
     text-transform: uppercase;
     text-decoration: none;
-  
+
   }
 
   .container{
