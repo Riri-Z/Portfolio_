@@ -1,8 +1,11 @@
 .App {
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   background-color: #202020;
   overflow-x:none;
+
 }
 

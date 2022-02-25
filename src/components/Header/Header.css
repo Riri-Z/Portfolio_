@@ -7,6 +7,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
+  backdrop-filter: blur(2px);
 }
 
 .section {
@@ -44,6 +45,28 @@
 .content{
   height: 10rem;
 }
+@media screen and (max-width: 320px) {
+  .container {
+    position: static;
+  }
+
+}
+@media screen and (max-width: 440px) {
+  .logo{
+    display:none;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    align-content:center;
+    justify-container:center;
+  }
+  .container{
+    justify-content:center;
+  }
+}
+
 
 @media screen and (max-width: 900px) {
   .logo{
@@ -54,16 +77,6 @@
     text-transform: uppercase;
     text-decoration: none;
 
-  }
-
-  .container{
-    padding: 17px;
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .logo{
-    display:none;
   }
 
   .container{

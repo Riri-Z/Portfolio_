@@ -59,6 +59,22 @@ h1{
   transform: scale(1.25);
 }
 
+
+@media screen and (max-width: 260) {
+  .techContainer {
+    padding:20rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .toolsList {
+    display: flex;
+    flex-direction:column;
+
+  }
+}
+
+
 @media screen and (max-width: 900px) {
 
   .rocket {

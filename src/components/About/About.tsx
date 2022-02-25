@@ -25,8 +25,7 @@ export const About = () => {
   const DisplayList = (list) => {
     const CATEGORY = list?.list
     return (
-      <div className="">
-
+      <>
         <h1 className='titleList'>{CATEGORY.title}    </h1>
 
         <div className='toolsList'>
@@ -51,7 +50,7 @@ export const About = () => {
           }
 
         </div>
-      </div>
+      </>
     )
   }
 
