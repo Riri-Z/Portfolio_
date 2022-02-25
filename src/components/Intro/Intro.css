@@ -1,26 +1,13 @@
 .introContainer  {
-  background-color:#202020;
-  display: flex;
-  max-width: 100%;
-  overflow-x: hidden; 
-  padding-left: 11rem;
-  padding-right: 12rem;
-
-
+  margin: 0px 40px 0px 40px;
 }
 
 .description{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 10rem;
   text-align: justify;
-
-}
-
-.content{
-  color: #ffffff;
-  text-justify: inter-word;
+  align-content: center;
 
 }
 
@@ -35,48 +22,74 @@
   opacity: 1;
 }
 
+.content{
+  max-width: 1100px;
+}
 
 .revealPicture{
   position: relative;
   transform: translateX(20rem);
   opacity: 0;
   transition: 2s all ease;
+
 }
+
 .revealPicture.active{
   transform: translateX(0);
   opacity: 1;
 }
 
-
-@media screen and (max-width: 900px) {
-  .introContainer  {
-    background-color:#202020;
+@media screen and (max-width:1080px) {
+  .introContainer{
     display: flex;
-    max-width: 100%;
-    overflow-x: hidden; 
-    justify-content: center;
     flex-direction: column;
-    padding-left: 11rem;
-    padding-right: 0;
+    font-size: 16px;
+    gap:10px;
   }
 
   .description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  /*   display:flex;
+    flex-direction:row; */
   }
 
-  .revealPicture{
-transform: translateX(20rem);
-    opacity: 0;
-    transition: 2s all ease;
+
+
+  .revealPicture {
+    display: flex;
+    justify-content: center;
+
   }
-  
+
+  .revealPicture img {
+    width: 300px;
+    height: 400px;
+  }
+
+
+
 }
 
-@media screen and (max-width:600px) {
-  .revealPicture {
-    display: none;
+@media screen and (min-width : 1080px) {
+  .introContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin: -60px 80px 0px 80px;
+
   }
-      
+  .description{
+    align-items: center;
+  }
+  .revealPicture {
+    display: flex;
+    justify-content: center;
+    margin: 41px;
+
+  }
+
+  .revealPicture img {
+    padding: 10px 0 0 0 ;
+    width: 400px;
+    height: 600px;
+   }
 }

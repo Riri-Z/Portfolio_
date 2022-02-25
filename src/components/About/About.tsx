@@ -37,7 +37,7 @@ export const About = () => {
 
               return (
                 <div key={e.name} className='item'>
-    
+
                   <img
                     width={20}
                     height={20}
@@ -76,18 +76,17 @@ export const About = () => {
   const Languages = {
     title: "Languages",
     element: [
+      { name: 'Javascript', logo: jsIcon },
       { name: 'HTML', logo: htmlIcon },
       { name: 'CSS3', logo: cssIcon },
-      { name: 'Javascript', logo: jsIcon },
-      { name: 'ES6', logo: es6 },
     ]
   }
 
   const frameworkAndLib = {
     title: "JS Framework/Library",
     element: [
-      { name: 'TS', logo: typescriptIcon },
       { name: 'ReactJS', logo: reactIcon },
+      { name: 'TS', logo: typescriptIcon },
       { name: 'Redux', logo: reduxIcon },
       { name: 'NPM', logo: npm },
       { name: 'YARN', logo: yarn },

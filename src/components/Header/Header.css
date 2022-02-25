@@ -61,3 +61,13 @@
     font-size: 15px;
   }
 }
+@media screen and (max-width: 400px) {
+  .logo{
+    display:none;
+  }
+
+  .container{
+    padding: 17px;
+    font-size: 15px;
+  }
+}

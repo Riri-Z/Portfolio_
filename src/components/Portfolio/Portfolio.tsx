@@ -39,7 +39,7 @@ export const Portfolio = () => {
           projects.map(e =>
 
             <div key={e.title} className='cardProject'>
-              <a href={e.url !== "" ? e.url :"#"}  target="_blank" rel="noreferrer"  >
+              <a href={e.url !== "" ? e.url : "#"} target="_blank" rel="noreferrer"  >
                 <div>
 
                   <img
@@ -64,7 +64,7 @@ export const Portfolio = () => {
 
   return (
     <div className="containerPortfolio">
-      <h1 >PORTFOLIO</h1>
+      <h1 className='title'>PORTFOLIO</h1>
       <DisplayProjects
         projects={projects}
       />

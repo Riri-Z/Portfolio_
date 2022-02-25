@@ -37,16 +37,17 @@ export const Intro = () => {
 
 
   return (
-    <div  id="about"  className='introContainer'>
-
+    <div id="about" className='introContainer'>
       <div className="description reveal">
         <h1>About Me</h1>
+
+
         <p className='hello'>
           Hello 👋
         </p>
 
         <p className='name'>
-          My name is Riri Zamor
+          My name is Riri Zamor,
         </p>
 
         <p className='content'>
@@ -58,10 +59,10 @@ export const Intro = () => {
 
       </div>
 
-      <div className="picture revealPicture">
+      <div className="revealPicture">
+
         <img
           src={IntroImage}
-          style={{ height: 600, width: 400 }}
           alt="website logo"
         />
       </div>

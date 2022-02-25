@@ -53,13 +53,14 @@ h1{
   padding: 0.2rem;
   border-color: black;
   background-color: rgb(119 136 153);
+  transition: transform .2s;
 }
 .item:hover{
-  color: chartreuse;
+  transform: scale(1.25);
 }
 
 @media screen and (max-width: 900px) {
-  
+
   .rocket {
     display: none;
   }

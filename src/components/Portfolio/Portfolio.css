@@ -7,6 +7,11 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap:20px;
+}
+
+.title {
+  padding-bottom: 30px;
 }
 
 .picture {
@@ -24,7 +29,7 @@
 
 .cardProject{
   position: relative;
-  width: 22%;
+  width: 500px;
 }
 
 
@@ -54,3 +59,10 @@
 .cardProject:hover .middle {
   opacity: 1;
 }
+
+/*
+@media screen and (max-width: 1650px) {
+  .containerProject{
+
+  }
+} */
