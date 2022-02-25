@@ -15,7 +15,6 @@ import npm from "../../assets/npm.svg"
 import sql from "../../assets/sql.svg"
 import yarn from "../../assets/yarn.svg"
 import mui from "../../assets/mui.png"
-import es6 from "../../assets/es6.png"
 import rocket from "../../assets/rocket.svg"
 import tailwind from "../../assets/tailwindcss.svg"
 
