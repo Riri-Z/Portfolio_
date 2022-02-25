@@ -39,6 +39,16 @@
   opacity: 1;
 }
 
+
+@media screen and (max-width : 375px) {
+  .introContainer{
+    padding-bottom: 100px;
+  }
+  .revealPicture img {
+    display:none;
+      }
+
+}
 @media screen and (max-width:1080px) {
   .introContainer{
     display: flex;
